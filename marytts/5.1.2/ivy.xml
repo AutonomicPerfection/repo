@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0">
+    <info organisation="marytts" module="marytts" status="release" revision="5.1.2">
+    </info>
+    <configurations>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+    </configurations>
+    <publications>
+        <artifact name="marytts-client-5.1.2-jar-with-dependencies" type="jar"/>
+        <artifact name="marytts-runtime-5.1.2-jar-with-dependencies" type="jar"/>
+        <artifact name="voice-cmu-slt-hsmm-5.1.2" type="jar"/>
+        <artifact name="icu4j-54.1.1" type="jar"/>
+		<artifact name="marytts-lang-de-5.1.2"/>
+		<artifact name="marytts-lang-fr-5.1.2"/>
+		<artifact name="marytts-lang-ru-5.1.2"/>
+		<artifact name="marytts-lang-te-5.1.2"/>
+		<artifact name="marytts-lang-en-5.1.2"/>
+		<artifact name="marytts-lang-it-5.1.2"/>
+		<artifact name="marytts-lang-sv-5.1.2"/>
+		<artifact name="marytts-lang-tr-5.1.2"/>
+    </publications>
+</ivy-module>
