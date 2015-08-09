@@ -403,6 +403,15 @@
       "name": "org.myrobotlab.service.Mail",
       "description": "used as a general template"
     },
+    
+    "org.myrobotlab.service.MarySpeech": {
+      "name": "org.myrobotlab.service.MarySpeech",
+      "description": "Mary TTS speech synthesis service",
+      "available": true,
+      "dependencies": [
+        "marytts"
+      ],
+    }
     "org.myrobotlab.service.Motor": {
       "name": "org.myrobotlab.service.Motor",
       "description": "general motor service",
@@ -1528,6 +1537,11 @@
     "wiiuse.wiimote": {
       "org": "wiiuse.wiimote",
       "revision": "0.12b",
+      "installed": false
+    }
+    "marytts": {
+      "org": "marytts",
+      "revision": "5.1.2",
       "installed": false
     }
   }
