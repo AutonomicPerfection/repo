@@ -9,7 +9,7 @@
       "description": "Adafruit Motor Shield Service",
       "dependencies": [
         "com.adafruit.servodriver"
-      ],
+      ], 
       "peers": {
         "arduino": "org.myrobotlab.service.Arduino"
       }
