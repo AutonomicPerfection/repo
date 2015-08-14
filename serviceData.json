@@ -9,7 +9,7 @@
       "description": "Adafruit Motor Shield Service",
       "dependencies": [
         "com.adafruit.servodriver"
-      ],
+      ], 
       "peers": {
         "arduino": "org.myrobotlab.service.Arduino"
       }
@@ -1538,7 +1538,7 @@
       "org": "wiiuse.wiimote",
       "revision": "0.12b",
       "installed": false
-    }
+    },
     "marytts": {
       "org": "marytts",
       "revision": "5.1.2",
