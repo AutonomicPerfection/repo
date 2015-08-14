@@ -411,7 +411,7 @@
       "dependencies": [
         "marytts"
       ]
-    }
+    },
     "org.myrobotlab.service.Motor": {
       "name": "org.myrobotlab.service.Motor",
       "description": "general motor service",
