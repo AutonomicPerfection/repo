@@ -840,7 +840,6 @@
       "description": "The new web enabled GUIService 2.0 !",
       "available": true,
       "dependencies": [
-        "org.java_websocket.websocket",
         "io.netty",
         "org.atmosphere.nettosphere"
       ]
