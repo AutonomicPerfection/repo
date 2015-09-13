@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0">
+    <info organisation="org.jsoup" module="jsoup" status="release" revision="1.8.3">
+    </info>
+    <configurations>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+    </configurations>
+    <publications>
+        <artifact name="jsoup-1.8.3" type="jar"/>
+    </publications>
+</ivy-module>
