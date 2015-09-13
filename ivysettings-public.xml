@@ -2,8 +2,9 @@
 <!-- refer to : http://ant.apache.org/ivy/history/2.2.0/tutorial/defaultconf.html -->
   <resolvers>
     <url name="public">
-      <ivy pattern="https://cdn.rawgit.com/MyRobotLab/repo/master/[organisation]/[revision]/ivy.xml" />
-      <artifact pattern="https://cdn.rawgit.com/MyRobotLab/repo/master/[organisation]/[revision]/[artifact].[ext]" />
+    <!--  TODO - change these when moved to release !!! -->
+      <ivy pattern="https://cdn.rawgit.com/MyRobotLab/repo/develop/[organisation]/[revision]/ivy.xml" />
+      <artifact pattern="https://cdn.rawgit.com/MyRobotLab/repo/develop/[organisation]/[revision]/[artifact].[ext]" />
     </url>
   </resolvers>
 </ivysettings>
