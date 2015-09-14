@@ -3,7 +3,7 @@
     <info organisation="cc.arduino" module="arduino" status="release" revision="1.0">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="arduino.x86.32.windows" type="zip" ext="zip" conf="x86.32.windows, x86.64.windows"/>
