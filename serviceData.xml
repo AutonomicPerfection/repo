@@ -172,7 +172,7 @@
          </dependencies>
       </serviceType>
       <serviceType name="org.myrobotlab.service.Keyboard" description="a service which allows capture and transmission of keyboard events (keystrokes)"/>
-      <serviceType name="org.myrobotlab.service.LeapMotion2" description="service to borg the Leap Motion controller">
+      <serviceType name="org.myrobotlab.service.LeapMotion" description="service to borg the Leap Motion controller">
          <dependencies>
             <org>com.leapmotion</org>
          </dependencies>

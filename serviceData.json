@@ -290,7 +290,7 @@
       "peers": {
         "arduino": "org.myrobotlab.service.Arduino",
         "index": "org.myrobotlab.service.Servo",
-        "leap": "org.myrobotlab.service.LeapMotion2",
+        "leap": "org.myrobotlab.service.LeapMotion",
         "majeure": "org.myrobotlab.service.Servo",
         "pinky": "org.myrobotlab.service.Servo",
         "ringFinger": "org.myrobotlab.service.Servo",
@@ -360,8 +360,8 @@
       "name": "org.myrobotlab.service.LIDAR",
       "description": "The LIDAR service"
     },
-    "org.myrobotlab.service.LeapMotion2": {
-      "name": "org.myrobotlab.service.LeapMotion2",
+    "org.myrobotlab.service.LeapMotion": {
+      "name": "org.myrobotlab.service.LeapMotion",
       "description": "used as a general template",
       "available": true,
       "dependencies": [
@@ -1129,7 +1129,7 @@
       "name": "sensor",
       "serviceTypes": [
         "org.myrobotlab.service.GPS",
-        "org.myrobotlab.service.LeapMotion2",
+        "org.myrobotlab.service.LeapMotion",
         "org.myrobotlab.service.LIDAR",
         "org.myrobotlab.service.OculusDIY",
         "org.myrobotlab.service.OculusRift",
