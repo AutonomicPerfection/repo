@@ -7,11 +7,5 @@
     </configurations>
     <publications>
         <artifact name="topcodes" type="jar"/>
-        <artifact name="JavaWebCam" type="native" ext="dll" conf="x86.32.windows"/>
-        
-        <!-- new repo begin -->
-        <artifact name="x86.32.windows" type="zip" ext="zip" conf="x86.32.windows"/>
-        <!-- new repo end -->
-    
     </publications>
 </ivy-module>
