@@ -29,7 +29,7 @@
       "name": "org.myrobotlab.service.Agent",
       "description": "Agent (Smith) - responsible for creating the environment and maintaining, tracking and terminating all processes",
       "peers": {
-        "cli": "org.myrobotlab.service.CLI"
+        "cli": "org.myrobotlab.service.Cli"
       }
     },
     "org.myrobotlab.service.AndroidSpeechRecognition": {
@@ -83,8 +83,8 @@
       "description": "used as a general blender",
       "available": true
     },
-    "org.myrobotlab.service.CLI": {
-      "name": "org.myrobotlab.service.CLI",
+    "org.myrobotlab.service.Cli": {
+      "name": "org.myrobotlab.service.Cli",
       "description": "used as a general cli",
       "available": true
     },
@@ -595,7 +595,7 @@
       "name": "org.myrobotlab.service.Runtime",
       "description": "Runtime singleton service",
       "peers": {
-        "cli": "org.myrobotlab.service.CLI"
+        "cli": "org.myrobotlab.service.Cli"
       }
     },
     "org.myrobotlab.service.SLAM": {
@@ -989,7 +989,7 @@
     "framework": {
       "name": "framework",
       "serviceTypes": [
-        "org.myrobotlab.service.CLI",
+        "org.myrobotlab.service.Cli",
         "org.myrobotlab.service.Proxy",
         "org.myrobotlab.service.RecorderPlayer",
         "org.myrobotlab.service.RemoteAdapter",
@@ -1159,6 +1159,7 @@
       "name": "simulator",
       "serviceTypes": [
         "org.myrobotlab.service.Blender",
+        "org.myrobotlab.service.VirtualDevice",
         "org.myrobotlab.service.SLAM",
         "org.myrobotlab.service.SLAMBad"
       ]
