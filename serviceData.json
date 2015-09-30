@@ -335,6 +335,11 @@
       "description": "used as a general template",
       "available": true
     },
+    "org.myrobotlab.service.InverseKinematics3D": {
+      "name": "org.myrobotlab.service.InverseKinematics3D",
+      "description": "Inverse Kinematics for 3D solutions. D-H params / pseudo jacobian",
+      "available": true
+    },    
     "org.myrobotlab.service.JFugue": {
       "name": "org.myrobotlab.service.JFugue",
       "description": "service wrapping Jfugue - http://www.jfugue.org/ used for music and sound generation",
@@ -920,6 +925,7 @@
       "name": "control",
       "serviceTypes": [
         "org.myrobotlab.service.InverseKinematics",
+        "org.myrobotlab.service.InverseKinematics3D",
         "org.myrobotlab.service.Joystick",
         "org.myrobotlab.service.Keyboard",
         "org.myrobotlab.service.MouthControl",
@@ -1098,6 +1104,7 @@
         "org.myrobotlab.service.InMoovHead",
         "org.myrobotlab.service.InMoovTorso",
         "org.myrobotlab.service.InverseKinematics",
+        "org.myrobotlab.service.InverseKinematics3D",
         "org.myrobotlab.service.MagaBot",
         "org.myrobotlab.service.RobotPlatform",
         "org.myrobotlab.service.Roomba",
