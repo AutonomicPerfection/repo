@@ -1503,7 +1503,7 @@
     },
     "org.saintandreas.jovr": {
       "org": "org.saintandreas.jovr",
-      "revision": "0.3.2.4",
+      "revision": "0.7",
       "installed": false
     },
     "org.simpleframework.xml": {

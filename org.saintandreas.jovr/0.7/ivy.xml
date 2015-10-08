@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0">
+    <info organisation="org.saintandreas.jovr" module="jovr" status="release" revision="0.7">
+    </info>
+    <configurations>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+    </configurations>
+    <publications>
+        <artifact name="jovr-0.7.0.0" type="jar"/>
+        <artifact name="glamour-lwjgl-1.0.8" type="jar"/>
+        <artifact name="guava-17.0" type="jar"/>
+        <artifact name="jna-4.2.0" type="jar"/>
+        <artifact name="jscience-4.3.1" type="jar"/>
+        <artifact name="lwjgl_util-2.9.3" type="jar"/>
+        <artifact name="math-1.0.4" type="jar"/>
+        <artifact name="oria-resources-1.0.4" type="jar"/>
+        <artifact name="slick-util" type="jar"/>
+        <artifact name="xres-1.0.3" type="jar"/>
+        <artifact name="lwjgl-platform-2.9.3-natives-windows.jar" type="jar" conf="x86.64.windows"/>
+        <artifact name="lwjgl-platform-2.9.3-natives-osx.jar" type="jar" conf="x86.64.mac"/>
+        <artifact name="lwjgl-platform-2.9.3-natives-linux.jar" type="jar" conf="x86.64.linux"/>
+ <!-- TODO: bundle the non bundled natives / non-jar stuff as zip files
+        <artifact name="jovr.x86.64.windows" type="zip" ext="zip" conf="x86.64.windows"/>
+        <artifact name="jovr.x86.32.windows" type="zip" ext="zip" conf="x86.32.windows"/>
+        <artifact name="jovr.x86.64.linux" type="zip" ext="zip" conf="x86.64.linux"/>
+        <artifact name="jovr.x86.64.mac" type="zip" ext="zip" conf="x86.64.mac"/> 
+-->
+     </publications>
+</ivy-module>
