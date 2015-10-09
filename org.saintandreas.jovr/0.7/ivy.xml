@@ -16,9 +16,9 @@
         <artifact name="oria-resources-1.0.4" type="jar"/>
         <artifact name="slick-util" type="jar"/>
         <artifact name="xres-1.0.3" type="jar"/>
-        <artifact name="lwjgl-platform-2.9.3-natives-windows.jar" type="jar" conf="x86.64.windows"/>
-        <artifact name="lwjgl-platform-2.9.3-natives-osx.jar" type="jar" conf="x86.64.mac"/>
-        <artifact name="lwjgl-platform-2.9.3-natives-linux.jar" type="jar" conf="x86.64.linux"/>
+        <artifact name="lwjgl-platform-2.9.3-natives-windows" type="jar" conf="x86.64.windows"/>
+        <artifact name="lwjgl-platform-2.9.3-natives-osx" type="jar" conf="x86.64.mac"/>
+        <artifact name="lwjgl-platform-2.9.3-natives-linux" type="jar" conf="x86.64.linux"/>
  <!-- TODO: bundle the non bundled natives / non-jar stuff as zip files
         <artifact name="jovr.x86.64.windows" type="zip" ext="zip" conf="x86.64.windows"/>
         <artifact name="jovr.x86.32.windows" type="zip" ext="zip" conf="x86.32.windows"/>
