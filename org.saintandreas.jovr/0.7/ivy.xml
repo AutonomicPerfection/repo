@@ -11,11 +11,12 @@
         <artifact name="guava-17.0" type="jar"/>
         <artifact name="jna-4.2.0" type="jar"/>
         <artifact name="jscience-4.3.1" type="jar"/>
-        <artifact name="lwjgl_util-2.9.3" type="jar"/>
         <artifact name="math-1.0.4" type="jar"/>
         <artifact name="oria-resources-1.0.4" type="jar"/>
         <artifact name="slick-util" type="jar"/>
         <artifact name="xres-1.0.3" type="jar"/>
+        <artifact name="lwjgl-2.9.3" type="jar"/>
+        <artifact name="lwjgl_util-2.9.3" type="jar"/>
         <artifact name="lwjgl-platform-2.9.3-natives-windows" type="jar" conf="x86.64.windows"/>
         <artifact name="lwjgl-platform-2.9.3-natives-osx" type="jar" conf="x86.64.mac"/>
         <artifact name="lwjgl-platform-2.9.3-natives-linux" type="jar" conf="x86.64.linux"/>
@@ -25,5 +26,6 @@
         <artifact name="jovr.x86.64.linux" type="zip" ext="zip" conf="x86.64.linux"/>
         <artifact name="jovr.x86.64.mac" type="zip" ext="zip" conf="x86.64.mac"/> 
 -->
+
      </publications>
 </ivy-module>
