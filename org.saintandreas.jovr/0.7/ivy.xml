@@ -21,8 +21,8 @@
         <artifact name="lwjgl-platform-2.9.3-natives-osx" type="jar" conf="x86.64.mac"/>
         <artifact name="lwjgl-platform-2.9.3-natives-linux" type="jar" conf="x86.64.linux"/>
         
-        <artifact name="lwjgl64" type="dll" conf="x86.64.windows" />
-        <artifact name="lwjgl" type="dll" conf="x86.32.windows" />
+        <artifact name="win64" type="zip" conf="x86.64.windows" />
+        <!-- <artifact name="lwjgl" type="dll" conf="x86.32.windows" />  -->
         
  <!-- TODO: bundle the non bundled natives / non-jar stuff as zip files
         <artifact name="jovr.x86.64.windows" type="zip" ext="zip" conf="x86.64.windows"/>
