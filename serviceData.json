@@ -107,7 +107,7 @@
       "peers": {
         "serial": "org.myrobotlab.service.Serial",
         "speech": "org.myrobotlab.service.Speech",
-        "webgui": "org.myrobotlab.service.WebGUI"
+        "webgui": "org.myrobotlab.service.WebGui"
       }
     },
     "org.myrobotlab.service.ChumbyBot": {
@@ -158,7 +158,7 @@
         "keyboard": "org.myrobotlab.service.Keyboard",
         "remote": "org.myrobotlab.service.RemoteAdapter",
         "serial": "org.myrobotlab.service.Serial",
-        "webgui": "org.myrobotlab.service.WebGUI"
+        "webgui": "org.myrobotlab.service.WebGui"
       }
     },
     "org.myrobotlab.service.FaceTracking": {
@@ -501,7 +501,7 @@
       ],
       "peers": {
         "raspi": "org.myrobotlab.service.RasPi",
-        "webgui": "org.myrobotlab.service.WebGUI"
+        "webgui": "org.myrobotlab.service.WebGui"
       }
     },
     "org.myrobotlab.service.Pingdar": {
@@ -531,7 +531,7 @@
         "streamer": "org.myrobotlab.service.VideoStreamer",
         "tilt": "org.myrobotlab.service.Servo",
         "tracking": "org.myrobotlab.service.Tracking",
-        "webgui": "org.myrobotlab.service.WebGUI",
+        "webgui": "org.myrobotlab.service.WebGui",
         "xmpp": "org.myrobotlab.service.XMPP"
       }
     },
@@ -658,7 +658,7 @@
       "name": "org.myrobotlab.service.Shoutbox",
       "description": "shoutbox server for myrobotlab",
       "peers": {
-        "webgui": "org.myrobotlab.service.WebGUI"
+        "webgui": "org.myrobotlab.service.WebGui"
       }
     },
     "org.myrobotlab.service.SoccerGame": {
@@ -709,7 +709,7 @@
       "peers": {
         "arduino": "org.myrobotlab.service.Arduino",
         "cron": "org.myrobotlab.service.Cron",
-        "webgui": "org.myrobotlab.service.WebGUI"
+        "webgui": "org.myrobotlab.service.WebGui"
       }
     },
     "org.myrobotlab.service.Stepper": {
@@ -840,8 +840,8 @@
         "logic": "org.myrobotlab.service.Python"
       }
     },
-    "org.myrobotlab.service.WebGUI": {
-      "name": "org.myrobotlab.service.WebGUI",
+    "org.myrobotlab.service.WebGui": {
+      "name": "org.myrobotlab.service.WebGui",
       "description": "The new web enabled GUIService 2.0 !",
       "available": true,
       "dependencies": [
@@ -947,7 +947,7 @@
         "org.myrobotlab.service.Sprinkler",
         "org.myrobotlab.service.Stepper",
         "org.myrobotlab.service.Tracking",
-        "org.myrobotlab.service.WebGUI",
+        "org.myrobotlab.service.WebGui",
         "org.myrobotlab.service.XMPP"
       ]
     },
@@ -975,7 +975,7 @@
         "org.myrobotlab.service.ServoOrchestrator",
         "org.myrobotlab.service.SLAM",
         "org.myrobotlab.service.SLAMBad",
-        "org.myrobotlab.service.WebGUI",
+        "org.myrobotlab.service.WebGui",
         "org.myrobotlab.service.WiiDAR"
       ]
     },
