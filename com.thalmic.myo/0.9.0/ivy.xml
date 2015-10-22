@@ -3,7 +3,7 @@
     <info organisation="com.thalmic.myo" module="myo" status="release" revision="0.9.0">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="myo-java-0.9.1-SNAPSHOT" type="jar"/>

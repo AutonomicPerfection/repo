@@ -3,7 +3,7 @@
     <info organisation="org.junit" module="junit" status="release" revision="4.11">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="junit-4.11" type="jar"/>

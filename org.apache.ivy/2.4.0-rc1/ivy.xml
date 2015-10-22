@@ -3,7 +3,7 @@
     <info organisation="org.apache.ivy" module="ivy" status="release" revision="2.4.0-rc1">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="ivy-2.4.0-rc1" type="jar"/>

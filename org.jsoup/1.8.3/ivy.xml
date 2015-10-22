@@ -3,7 +3,7 @@
     <info organisation="org.jsoup" module="jsoup" status="release" revision="1.8.3">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="jsoup-1.8.3" type="jar"/>

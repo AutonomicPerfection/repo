@@ -2,7 +2,7 @@
 <ivy-module version="2.0">
   <info revision="4.10.2" status="release" module="solr" organisation="org.apache.solr" />
   <configurations>
-    <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml" />
+    <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml" />
   </configurations>
   <publications>
     <artifact conf="*" type="jar" name="solr-solrj-4.10.2" />

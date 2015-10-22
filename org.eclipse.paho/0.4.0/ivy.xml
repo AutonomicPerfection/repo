@@ -3,7 +3,7 @@
     <info organisation="org.eclipse.paho" module="paho" status="release" revision="0.4.0">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="mqtt-client-0.4.0" type="jar"/>

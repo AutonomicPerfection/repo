@@ -3,7 +3,7 @@
     <info organisation="com.goodrobots" module="goodrobots" status="release" revision="1.0.0-SNAPSHOT">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="Robot-Cloud-Connector-1.0.0-SNAPSHOT" type="jar"/>

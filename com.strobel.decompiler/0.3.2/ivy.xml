@@ -3,7 +3,7 @@
     <info organisation="com.strobel.decompiler" module="decompiler" status="release" revision="0.3.2">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="procyon-decompiler-0.3.2" type="jar"/>
