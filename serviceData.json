@@ -46,18 +46,6 @@
         "org.fife.rsyntaxtextarea"
       ]
     },
-    "org.myrobotlab.service.Arduino2": {
-      "name": "org.myrobotlab.service.Arduino2",
-      "description": "This service interfaces with an Arduino micro-controller.",
-      "dependencies": [
-        "cc.arduino",
-        "gnu.io.rxtx",
-        "org.fife.rsyntaxtextarea"
-      ],
-      "peers": {
-        "serial": "org.myrobotlab.service.Serial"
-      }
-    },
     "org.myrobotlab.service.Arm": {
       "name": "org.myrobotlab.service.Arm"
     },
@@ -86,11 +74,6 @@
     "org.myrobotlab.service.Cli": {
       "name": "org.myrobotlab.service.Cli",
       "description": "used as a general cli",
-      "available": true
-    },
-    "org.myrobotlab.service.ChatBot": {
-      "name": "org.myrobotlab.service.ChatBot",
-      "description": "used as a general template",
       "available": true
     },
     "org.myrobotlab.service.ChessGame": {
@@ -146,10 +129,6 @@
         "it.sauronsoftware.cron4j"
       ]
     },
-    "org.myrobotlab.service.Drupal": {
-      "name": "org.myrobotlab.service.Drupal",
-      "description": "used as a general template"
-    },
     "org.myrobotlab.service.EddieControlBoard": {
       "name": "org.myrobotlab.service.EddieControlBoard",
       "description": "used as a general template",
@@ -160,11 +139,6 @@
         "serial": "org.myrobotlab.service.Serial",
         "webgui": "org.myrobotlab.service.WebGui"
       }
-    },
-    "org.myrobotlab.service.FaceTracking": {
-      "name": "org.myrobotlab.service.FaceTracking",
-      "description": "used for tracking",
-      "available": true
     },
     "org.myrobotlab.service.GPS": {
       "name": "org.myrobotlab.service.GPS",
@@ -184,10 +158,6 @@
         "com.mxgraph.jgraph"
       ]
     },
-    "org.myrobotlab.service.GoogleAPI": {
-      "name": "org.myrobotlab.service.GoogleAPI",
-      "description": "used as a general template"
-    },
     "org.myrobotlab.service.GoogleSTT": {
       "name": "org.myrobotlab.service.GoogleSTT",
       "description": "Uses the Google Speech To Text service",
@@ -200,16 +170,12 @@
       "name": "org.myrobotlab.service.Graphics",
       "description": "a graphics service encapsulating Java swing graphic methods"
     },
-    "org.myrobotlab.service.HTTPClient": {
-      "name": "org.myrobotlab.service.HTTPClient",
+    "org.myrobotlab.service.HttpClient": {
+      "name": "org.myrobotlab.service.HttpClient",
       "description": "an HTTP client, used to fetch information on the web",
       "dependencies": [
         "org.apache.commons.httpclient"
       ]
-    },
-    "org.myrobotlab.service.Hadoop": {
-      "name": "org.myrobotlab.service.Hadoop",
-      "description": "used as a general template"
     },
     "org.myrobotlab.service.Houston": {
       "name": "org.myrobotlab.service.Houston",
@@ -361,9 +327,9 @@
       "description": "keyboard",
       "available": true
     },
-    "org.myrobotlab.service.LIDAR": {
-      "name": "org.myrobotlab.service.LIDAR",
-      "description": "The LIDAR service"
+    "org.myrobotlab.service.Lidar": {
+      "name": "org.myrobotlab.service.Lidar",
+      "description": "The Lidar service"
     },
     "org.myrobotlab.service.LeapMotion": {
       "name": "org.myrobotlab.service.LeapMotion",
@@ -399,10 +365,6 @@
       "peers": {
         "serial": "org.myrobotlab.service.Serial"
       }
-    },
-    "org.myrobotlab.service.MagaBot": {
-      "name": "org.myrobotlab.service.MagaBot",
-      "description": "used as a general template"
     },
     "org.myrobotlab.service.Mail": {
       "name": "org.myrobotlab.service.Mail",
@@ -603,10 +565,6 @@
         "cli": "org.myrobotlab.service.Cli"
       }
     },
-    "org.myrobotlab.service.SLAM": {
-      "name": "org.myrobotlab.service.SLAM",
-      "description": "addendum of WiiDAR - SLAM"
-    },
     "org.myrobotlab.service.SLAMBad": {
       "name": "org.myrobotlab.service.SLAMBad",
       "description": "used as a general template",
@@ -732,7 +690,6 @@
         "USfrontLeft": "org.myrobotlab.service.UltrasonicSensor",
         "USfrontRight": "org.myrobotlab.service.UltrasonicSensor",
         "arduino": "org.myrobotlab.service.Arduino",
-        "chatBot": "org.myrobotlab.service.ProgramAB",
         "ear": "org.myrobotlab.service.Sphinx",
         "eyesTracker": "org.myrobotlab.service.Tracking",
         "leftArm": "org.myrobotlab.service.Servo",
@@ -863,7 +820,7 @@
     },
     "org.myrobotlab.service.WiiDAR": {
       "name": "org.myrobotlab.service.WiiDAR",
-      "description": "service used in conjection with a wii camera a laser for inexpensive WiiDAR, a LIDAR like system see http://myrobotlab.org/node/1",
+      "description": "service used in conjection with a wii camera a laser for inexpensive WiiDAR, a Lidar like system see http://myrobotlab.org/node/1",
       "available": true,
       "dependencies": [
         "wiiuse.wiimote"
@@ -902,9 +859,6 @@
       "name": "cloud",
       "serviceTypes": [
         "org.myrobotlab.service.CloudConnector",
-        "org.myrobotlab.service.Drupal",
-        "org.myrobotlab.service.GoogleAPI",
-        "org.myrobotlab.service.Hadoop",
         "org.myrobotlab.service.MQTT",
         "org.myrobotlab.service.ThingSpeak"
       ]
@@ -912,7 +866,7 @@
     "connectivity": {
       "name": "connectivity",
       "serviceTypes": [
-        "org.myrobotlab.service.HTTPClient",
+        "org.myrobotlab.service.HttpClient",
         "org.myrobotlab.service.Mail",
         "org.myrobotlab.service.RemoteAdapter",
         "org.myrobotlab.service.Shoutbox",
@@ -973,7 +927,6 @@
         "org.myrobotlab.service.Plantoid",
         "org.myrobotlab.service.SensorMonitor",
         "org.myrobotlab.service.ServoOrchestrator",
-        "org.myrobotlab.service.SLAM",
         "org.myrobotlab.service.SLAMBad",
         "org.myrobotlab.service.WebGui",
         "org.myrobotlab.service.WiiDAR"
@@ -1041,7 +994,6 @@
     "intellegence": {
       "name": "intellegence",
       "serviceTypes": [
-        "org.myrobotlab.service.ChatBot",
         "org.myrobotlab.service.CleverBot",
         "org.myrobotlab.service.Cortex",
         "org.myrobotlab.service.ProgramAB"
@@ -1057,7 +1009,6 @@
       "name": "microcontroller",
       "serviceTypes": [
         "org.myrobotlab.service.Arduino",
-        "org.myrobotlab.service.Arduino2",
         "org.myrobotlab.service.BeagleBoardBlack",
         "org.myrobotlab.service.EddieControlBoard",
         "org.myrobotlab.service.Maestro",
@@ -1105,7 +1056,6 @@
         "org.myrobotlab.service.InMoovTorso",
         "org.myrobotlab.service.InverseKinematics",
         "org.myrobotlab.service.InverseKinematics3D",
-        "org.myrobotlab.service.MagaBot",
         "org.myrobotlab.service.RobotPlatform",
         "org.myrobotlab.service.Roomba",
         "org.myrobotlab.service.Sweety",
@@ -1137,7 +1087,7 @@
       "serviceTypes": [
         "org.myrobotlab.service.GPS",
         "org.myrobotlab.service.LeapMotion",
-        "org.myrobotlab.service.LIDAR",
+        "org.myrobotlab.service.Lidar",
         "org.myrobotlab.service.OculusDIY",
         "org.myrobotlab.service.OculusRift",
         "org.myrobotlab.service.OpenCV",
@@ -1167,7 +1117,6 @@
       "serviceTypes": [
         "org.myrobotlab.service.Blender",
         "org.myrobotlab.service.VirtualDevice",
-        "org.myrobotlab.service.SLAM",
         "org.myrobotlab.service.SLAMBad"
       ]
     },
@@ -1211,7 +1160,6 @@
     "tracking": {
       "name": "tracking",
       "serviceTypes": [
-        "org.myrobotlab.service.FaceTracking",
         "org.myrobotlab.service.Tracking"
       ]
     },

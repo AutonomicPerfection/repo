@@ -6,8 +6,10 @@
         <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
+    <!--
         <artifact name="arduino.x86.32.windows" type="zip" ext="zip" conf="x86.32.windows, x86.64.windows"/>
         <artifact name="arduino.x86.32.windows" type="zip" ext="zip" conf="x86.32.windows, x86.64.windows"/>
         <artifact name="MRLComm" type="zip" ext="zip"/>
+      -->
      </publications>
 </ivy-module>
