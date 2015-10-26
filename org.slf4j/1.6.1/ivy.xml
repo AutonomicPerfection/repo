@@ -3,7 +3,7 @@
     <info organisation="org.slf4j" module="slf4j" status="release" revision="1.6.1">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="slf4j-log4j12-1.6.1" type="jar"/>

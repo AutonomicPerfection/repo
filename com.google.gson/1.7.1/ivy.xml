@@ -3,7 +3,7 @@
     <info organisation="com.google.gson" module="gson" status="release" revision="1.7.1">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="gson-1.7.1" type="jar"/>

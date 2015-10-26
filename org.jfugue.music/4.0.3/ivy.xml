@@ -3,7 +3,7 @@
     <info organisation="org.jfugue.music" module="music" status="release" revision="4.0.3">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="jfugue-4.0.3" type="jar"/>

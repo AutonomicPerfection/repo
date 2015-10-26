@@ -3,7 +3,7 @@
     <info organisation="com.googlecode.simpleopenni" module="simpleopenni" status="release" revision="1.96">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="SimpleOpenNI" type="jar"/>

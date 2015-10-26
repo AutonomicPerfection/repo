@@ -4,7 +4,7 @@
     <info organisation="net.sourceforge.opencv" module="opencv" status="release" revision="2.4.10">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
     
@@ -13,7 +13,7 @@
         <artifact name="hogcascades" type="zip" ext="zip" conf="*"/>
         
         <artifact name="opencv" type="jar" conf="*"/>
-        <artifact name="opencv-linux-arm" type="jar" conf="armv6.hfp.32.linux"/>     
+        <artifact name="opencv-linux-arm" type="jar" conf="armv7.hfp.32.linux"/>  
         <artifact name="opencv-windows-x86" type="jar" conf="x86.32.windows"/>
         <artifact name="opencv-windows-x86_64" type="jar" conf="x86.64.windows"/>
         <artifact name="opencv-linux-x86" type="jar" conf="x86.32.linux"/>       

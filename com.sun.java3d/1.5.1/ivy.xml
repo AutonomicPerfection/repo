@@ -3,7 +3,7 @@
     <info organisation="com.sun.java3d" module="java3d" status="release" revision="1.5.1">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="j3dcore" type="jar"/>

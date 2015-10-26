@@ -3,7 +3,7 @@
     <info organisation="org.atmosphere.nettosphere" module="nettosphere" status="release" revision="2.3.0">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="geronimo-servlet_3.0_spec-1.0" type="jar" conf="*"/>

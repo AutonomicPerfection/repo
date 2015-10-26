@@ -3,7 +3,7 @@
     <info organisation="org.apache.log4j" module="log4j" status="release" revision="1.2.14">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="log4j-1.2.14" type="jar" conf="*"/>
