@@ -8,9 +8,7 @@
     </configurations>
     <publications>
     
-        <artifact name="haarcascades" type="zip" ext="zip" conf="*"/>
-        <artifact name="lbpcascades" type="zip" ext="zip" conf="*"/>
-        <artifact name="hogcascades" type="zip" ext="zip" conf="*"/>
+        <artifact name="data" type="zip" ext="zip" conf="*"/>
         
         <!-- universal jars -->
         <artifact name="javacpp" type="jar" conf="*"/>
