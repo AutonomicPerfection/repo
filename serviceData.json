@@ -420,8 +420,7 @@
       "description": "OpenCV (computer vision) service wrapping many of the functions and filters of OpenCV. ",
       "available": true,
       "dependencies": [
-        "org.bytedeco.javacv",
-        "net.sourceforge.opencv"
+        "org.bytedeco.javacv"
       ]
     },
     "org.myrobotlab.service.OpenNI": {
@@ -1231,7 +1230,7 @@
     },
     "org.bytedeco.javacv": {
       "org": "org.bytedeco.javacv",
-      "revision": "0.10",
+      "revision": "1.1",
       "installed": false
     },
     "com.googlecode.jssc": {
