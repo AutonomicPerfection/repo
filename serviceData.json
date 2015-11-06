@@ -805,6 +805,11 @@
         "org.atmosphere.nettosphere"
       ]
     },
+    "org.myrobotlab.service.WebkitSpeechRecognition": {
+      "name": "org.myrobotlab.service.WebkitSpeechRecognition",
+      "available": true
+      "description": "using the google chrome based speech recognition. (needs webgui)"
+    }
     "org.myrobotlab.service.Wii": {
       "name": "org.myrobotlab.service.Wii",
       "description": "wrapper service for wiiusej",
