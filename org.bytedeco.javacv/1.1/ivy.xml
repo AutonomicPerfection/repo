@@ -28,8 +28,8 @@
 		<artifact name="opencv-linux-x86_64" type="jar" conf="x86.64.linux" />
 		<artifact name="opencv-macosx-x86_64" type="jar" conf="x86.64.mac" />
 
-		<artifact name="videoinput-windows-x86.jar" type="jar" conf="x86.32.windows" />
-		<artifact name="videoinput-windows-x86_64.jar" type="jar" conf="x86.64.windows" />
+		<artifact name="videoinput-windows-x86" type="jar" conf="x86.32.windows" />
+		<artifact name="videoinput-windows-x86_64" type="jar" conf="x86.64.windows" />
 
 		<!-- TODO: what is the platform for android??? <artifact name="opencv-android-x86" 
 			type="jar" conf="x86.hfp.32.linux"/> <artifact name="opencv-android-arm" 
