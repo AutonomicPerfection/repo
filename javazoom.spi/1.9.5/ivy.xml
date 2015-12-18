@@ -3,7 +3,7 @@
     <info organisation="javazoom.spi" module="spi" status="release" revision="1.9.5">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="mp3spi1.9.5" type="jar"/>

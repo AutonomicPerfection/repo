@@ -59,6 +59,7 @@
       "description": "Plays back audio file. Can block or multi-thread play",
       "available": true,
       "dependencies": [
+        "javazoom.spi",
         "javazoom.jl.player"
       ]
     },
@@ -641,7 +642,8 @@
       "dependencies": [
         "com.sun.speech.freetts",
         "org.apache.commons.httpclient",
-        "javazoom.jl.player"
+        "javazoom.jl.player",
+        "javazoom.spi"
       ],
       "peers": {
         "audioFile": "org.myrobotlab.service.AudioFile"
