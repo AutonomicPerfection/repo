@@ -3,7 +3,7 @@
     <info organisation="javazoom.jl.player" module="player" status="release" revision="1.0.1">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="jl1.0.1" type="jar"/>
