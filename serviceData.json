@@ -398,6 +398,10 @@
       "name": "org.myrobotlab.service.MultiWii",
       "description": "used as a general template"
     },
+    "org.myrobotlab.service.MyoThalmic": {
+      "name": "org.myrobotlab.service.MyoThalmic",
+      "description": "myo thalmic muscle sensor service"
+    },
     "org.myrobotlab.service.OculusDIY": {
       "name": "org.myrobotlab.service.OculusDIY",
       "description": "Service to receive and compute data from a DIY Oculus",
@@ -1092,6 +1096,7 @@
         "org.myrobotlab.service.GPS",
         "org.myrobotlab.service.LeapMotion",
         "org.myrobotlab.service.Lidar",
+        "org.myrobotlab.service.MyoThalmic",
         "org.myrobotlab.service.OculusDIY",
         "org.myrobotlab.service.OculusRift",
         "org.myrobotlab.service.OpenCV",

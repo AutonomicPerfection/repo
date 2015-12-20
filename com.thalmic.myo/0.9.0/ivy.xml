@@ -6,6 +6,6 @@
         <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
-        <artifact name="myo-java-0.9.1-SNAPSHOT" type="jar"/>
+        <artifact name="myo-java-0.9.1-SNAPSHOT" type="jar" conf="*"/>
     </publications>
 </ivy-module>
