@@ -19,8 +19,14 @@
 	  <artifact name="linux64" type="zip" conf="x86.64.linux"/>
 	  <artifact name="win32" type="zip" conf="x86.32.windows"/>
 	  <artifact name="win64" type="zip" conf="x86.64.windows"/>
-	  <artifact name="NiTE2.1" type="zip" conf="*"/>
-	  <artifact name="NiTE2.2" type="zip" conf="*"/>
+	  <artifact name="NiTE2.1" type="zip" conf="x86.64.mac"/>
+	  <artifact name="NiTE2.1" type="zip" conf="x86.64.linux"/>
+	  <artifact name="NiTE2.1" type="zip" conf="x86.32.windows"/>
+	  <artifact name="NiTE2.1" type="zip" conf="x86.64.windows"/>
+	  <artifact name="NiTE2.2" type="zip" conf="x86.64.mac"/>
+	  <artifact name="NiTE2.2" type="zip" conf="x86.64.linux"/>
+	  <artifact name="NiTE2.2" type="zip" conf="x86.32.windows"/>
+	  <artifact name="NiTE2.2" type="zip" conf="x86.64.windows"/>
 
          </publications>
 </ivy-module>
