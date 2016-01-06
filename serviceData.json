@@ -1397,7 +1397,7 @@
     },
     "org.atmosphere.nettosphere": {
       "org": "org.atmosphere.nettosphere",
-      "revision": "2.4.0",
+      "revision": "2.3.0",
       "installed": false
     },
     "org.apache.solr": {
