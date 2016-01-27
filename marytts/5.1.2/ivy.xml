@@ -19,7 +19,7 @@
 		<artifact name="marytts-lang-tr-5.1.2" />
 		<artifact name="emotionml-checker-java-1.1" type="jar" />
 		<artifact name="jtok-core-1.9.1" type="jar" />
-		<artifact name="commons-collection-3.2.1" type="jar" />
+		<artifact name="commons-collections-3.2.1" type="jar" />
 		<artifact name="commons-lang-2.6" type="jar" />
 		<artifact name="hsqldb-2.0.0" type="jar" />
 		<artifact name="log4j-1.2.16" type="jar" />
