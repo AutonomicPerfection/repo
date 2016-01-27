@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0">
-	<info organisation="marytts" module="marytts" status="release"
-		revision="5.1.2">
+	<info organisation="marytts" module="marytts" status="release" revision="5.1.2">
 	</info>
 	<configurations>
 		<include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml" />
@@ -11,20 +10,22 @@
 		<artifact name="marytts-common-5.1.2" type="jar" />
 		<artifact name="marytts-signalproc-5.1.2" type="jar" />
 		<artifact name="marytts-lang-de-5.1.2" />
-    <artifact name="marytts-lang-fr-5.1.2" />
-    <artifact name="marytts-lang-ru-5.1.2" />
-    <artifact name="marytts-lang-te-5.1.2" />
-    <artifact name="marytts-lang-en-5.1.2" />
-    <artifact name="marytts-lang-it-5.1.2" />
-    <artifact name="marytts-lang-sv-5.1.2" />
-    <artifact name="marytts-lang-tr-5.1.2" />
-		<artifact name="commons-colleciton-3.2.1" type="jar" />
+		<artifact name="marytts-lang-fr-5.1.2" />
+		<artifact name="marytts-lang-ru-5.1.2" />
+		<artifact name="marytts-lang-te-5.1.2" />
+		<artifact name="marytts-lang-en-5.1.2" />
+		<artifact name="marytts-lang-it-5.1.2" />
+		<artifact name="marytts-lang-sv-5.1.2" />
+		<artifact name="marytts-lang-tr-5.1.2" />
+		<artifact name="emotionml-checker-java-1.1" type="jar" />
+		<artifact name="jtok-core-1.9.1" type="jar" />
+		<artifact name="commons-collection-3.2.1" type="jar" />
 		<artifact name="commons-lang-2.6" type="jar" />
 		<artifact name="hsqldb-2.0.0" type="jar" />
 		<artifact name="log4j-1.2.16" type="jar" />
 		<artifact name="freetts-de-1.0" type="jar" />
 		<artifact name="freetts-en_us-1.0" type="jar" />
-		<artifact name="voice-cmu-slt-hsmm-5.1.2" type="jar" />
+		<artifact name="voice-cmu-slt-hsmm-5.1.2" ddtype="jar" />
 		<artifact name="icu4j-54.1.1" type="jar" />
 	</publications>
 </ivy-module>
