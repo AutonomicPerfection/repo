@@ -3,7 +3,7 @@
     <info organisation="net.sourceforge.tess4j" module="tess4j" status="release" revision="1.1">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="tess4j" type="jar"/>

@@ -3,7 +3,7 @@
     <info organisation="javax.speech.recognition" module="recognition" status="release" revision="1.0">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="jsapi" type="jar"/>

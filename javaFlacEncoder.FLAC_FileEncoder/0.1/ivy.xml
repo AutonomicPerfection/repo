@@ -3,7 +3,7 @@
     <info organisation="javaFlacEncoder.FLAC_FileEncoder" module="FLAC_FileEncoder" status="release" revision="0.1">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="javaFlacEncoder-0.1" type="jar"/>

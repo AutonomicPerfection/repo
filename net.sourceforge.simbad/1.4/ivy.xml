@@ -3,7 +3,7 @@
     <info organisation="net.sourceforge.simbad" module="simbad" status="release" revision="1.4">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="simbad-1.4" type="jar"/>

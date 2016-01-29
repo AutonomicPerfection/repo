@@ -3,7 +3,7 @@
     <info organisation="javax.microedition.io" module="io" status="release" revision="2.0.3">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="cldcapi11-2.0.3" type="jar"/>

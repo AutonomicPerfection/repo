@@ -3,7 +3,7 @@
     <info organisation="edu.cmu.sphinx" module="sphinx" status="release" revision="4-1.0beta6">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="batch" type="jar"/>

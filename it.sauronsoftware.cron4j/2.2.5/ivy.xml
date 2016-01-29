@@ -3,7 +3,7 @@
     <info organisation="it.sauronsoftware.cron4j" module="cron4j" status="release" revision="2.2.5">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="cron4j-2.2.5" type="jar"/>

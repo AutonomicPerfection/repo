@@ -3,7 +3,7 @@
     <info organisation="be.hogent.tarsos" module="tarsos" status="release" revision="1.7">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="TarsosDSP-1.7" type="jar"/>

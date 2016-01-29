@@ -3,7 +3,7 @@
     <info organisation="io.netty" module="netty" status="release" revision="3.10.0">
     </info>
     <configurations>
-        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/master/ivyconfigurations.xml"/>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
         <artifact name="netty-3.10.0.Final" type="jar"/>
