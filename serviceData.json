@@ -53,7 +53,8 @@
       "description": "Plays back audio file. Can block or multi-thread play",
       "dependencies": [
         "javazoom.spi",
-        "javazoom.jl.player"
+        "javazoom.jl.player",
+        "org.tritonus.share.sampled.floatsamplebuffer"
       ]
     },
     "org.myrobotlab.service.BeagleBoardBlack": {
