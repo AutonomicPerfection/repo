@@ -1383,7 +1383,7 @@
     },
     "org.python.core": {
       "org": "org.python.core",
-      "revision": "2.5.2",
+      "revision": "2.7.0",
       "installed": false
     },
     "org.saintandreas.jovr": {
