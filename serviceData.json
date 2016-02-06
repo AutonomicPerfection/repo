@@ -1448,7 +1448,7 @@
       "revision": "0.12b",
       "installed": false
     },
-    "org.com.wikidata.wdtk": {
+    "org.wikidata.wdtk": {
       "org": "org.wikidata.wdtk",
       "revision": "0.5.0",
       "installed": false
