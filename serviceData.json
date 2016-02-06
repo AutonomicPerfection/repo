@@ -717,6 +717,13 @@
         "org.apache.commons.httpclient"
       ]
     },
+    "org.myrobotlab.service.WikiDataFetcher": {
+      "name": "org.myrobotlab.service.WikiDataFetcher",
+      "description": "Used to collect datas from wikidata",
+      "dependencies": [
+        "org.wikidata.wdtk"
+      ]
+    },
     "org.myrobotlab.service.XMLConnector": {
       "name": "org.myrobotlab.service.XMLConnector",
       "description": "This is an XML Connector that will parse a large xml file into many small xml documents."
