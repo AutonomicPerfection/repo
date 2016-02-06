@@ -882,13 +882,6 @@
         "org.jivesoftware.smack"
       ]
     },
-    "org.myrobotlab.service.WikiDataFetcher": {
-      "name": "org.myrobotlab.service.WikiDataFetcher",
-      "description": "Used to collect datas from wikidata",
-      "dependencies": [
-        "org.wikidata.wdtk"
-      ]
-    },
     "org.myrobotlab.service._TemplateService": {
       "name": "org.myrobotlab.service._TemplateService",
       "description": "used as a general template"
