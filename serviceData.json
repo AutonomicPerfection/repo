@@ -1426,7 +1426,7 @@
     "org.wikidata.wdtk": {
       "org": "org.wikidata.wdtk",
       "revision": "0.5.0",
-      "installed": true
+      "installed": false
     },
     "ph.com.alexan.aceduino": {
       "org": "ph.com.alexan.aceduino",
