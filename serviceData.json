@@ -709,6 +709,13 @@
       "name": "org.myrobotlab.service.WiiDAR",
       "description": "<html>service used in conjection with a wii camera a laser for inexpensive WiiDAR, a Lidar like system<br>see http://myrobotlab.org/node/1"
     },
+    "org.myrobotlab.service.WikiDataFetcher": {
+      "name": "org.myrobotlab.service.WikiDataFetcher",
+      "description": "Used to collect datas from wikidata",
+      "dependencies": [
+        "org.wikidata.wdtk"
+      ]
+    },
     "org.myrobotlab.service.WolframAlpha": {
       "name": "org.myrobotlab.service.WolframAlpha",
       "description": "Wolfram Alpha Service",
@@ -1414,6 +1421,11 @@
     "org.twitter4j.twitter": {
       "org": "org.twitter4j.twitter",
       "revision": "3.0.5",
+      "installed": false
+    },
+    "org.wikidata.wdtk": {
+      "org": "org.wikidata.wdtk",
+      "revision": "0.5.0",
       "installed": false
     },
     "ph.com.alexan.aceduino": {
