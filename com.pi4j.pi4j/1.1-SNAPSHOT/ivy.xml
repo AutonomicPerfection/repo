@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0">
+    <info organisation="com.pi4j.pi4j" module="pi4j" status="release" revision="1.1-SNAPSHOT">
+    </info>
+    <configurations>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
+    </configurations>
+    <publications>
+        <artifact name="pi4j-core" type="jar"/>
+        <artifact name="pi4j-gpio-extension" type="jar"/>
+        <!-- 
+        <artifact name="pi4j-core" type="jar" conf="armv6.hfp.32.linux"/>
+        <artifact name="pi4j-gpio-extension" type="jar" conf="armv6.hfp.32.linux"/>
+        
+         -->
+        </publications>
+</ivy-module>
