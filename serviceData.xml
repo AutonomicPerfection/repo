@@ -7,6 +7,10 @@
             <org>com.adafruit.servodriver</org>
          </dependencies>
       </serviceType>
+      <serviceType name="org.myrobotlab.service._TemplateService" description="AdaFruit 16-channel 12-bit PWM/servo driver - I2C interface">
+         <dependencies>
+         </dependencies>
+      </serviceType>
       <serviceType name="org.myrobotlab.service.AdafruitMotorShield" description="Adafruit Motor Shield for Arduino">
          <dependencies>
             <org>gnu.io.rxtx</org>
