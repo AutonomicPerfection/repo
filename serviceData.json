@@ -134,6 +134,13 @@
       "name": "org.myrobotlab.service.FileConnector",
       "description": "This connector will scan all the files in a directory and production documents."
     },
+    "org.myrobotlab.service.GoPro": {
+      "name": "org.myrobotlab.service.GoPro",
+      "description": "Service to control a GoPro Camera",
+      "peers": {
+        "http": "org.myrobotlab.service.HttpClient"
+      }
+    },
     "org.myrobotlab.service.GPS": {
       "name": "org.myrobotlab.service.GPS",
       "description": "The GPS service",
