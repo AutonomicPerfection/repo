@@ -58,7 +58,12 @@
             <org>org.tritonus.share.sampled.floatsamplebuffer</org>
          </dependencies>
       </serviceType>
-      <serviceType name="org.myrobotlab.service.HTTPClient" description="service to retrieve internet content">
+      <serviceType name="org.myrobotlab.service.GoPro" description="Service to control a GoPro Camera">
+         <dependencies>
+            <org>org.myrobotlab.service.HttpClient</org>
+         </dependencies>
+      </serviceType>
+      <serviceType name="org.myrobotlab.service.HttpClient" description="service to retrieve internet content">
          <dependencies>
             <org>org.apache.commons.httpclient</org>
          </dependencies>
