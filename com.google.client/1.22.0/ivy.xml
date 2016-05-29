@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0">
+    <info organisation="com.google.client" module="client" status="release" revision="1.22.0">
+    </info>
+    <configurations>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
+    </configurations>
+    <publications>
+        <artifact name="google-api-client-1.22.0" type="jar"/>
+        <artifact name="google-http-client-1.22.0" type="jar"/>
+        <artifact name="google-http-client-gson-1.22.0" type="jar"/>
+        <artifact name="google-http-client-jackson2-1.22.0" type="jar"/>
+        <artifact name="google-http-client-jdo-1.22.0" type="jar"/>
+        <artifact name="google-oauth-client-1.22.0" type="jar"/>
+        <artifact name="jdo2-api-2.3-eb" type="jar"/>
+        <artifact name="jsr305-1.3.9" type="jar"/>
+    </publications>
+</ivy-module>
