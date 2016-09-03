@@ -58,12 +58,7 @@
             <org>org.tritonus.share.sampled.floatsamplebuffer</org>
          </dependencies>
       </serviceType>
-      <serviceType name="org.myrobotlab.service.GoPro" description="Service to control a GoPro Camera">
-         <dependencies>
-            <org>org.myrobotlab.service.HttpClient</org>
-         </dependencies>
-      </serviceType>
-      <serviceType name="org.myrobotlab.service.HttpClient" description="service to retrieve internet content">
+      <serviceType name="org.myrobotlab.service.HTTPClient" description="service to retrieve internet content">
          <dependencies>
             <org>org.apache.commons.httpclient</org>
          </dependencies>
@@ -177,7 +172,7 @@
          </dependencies>
       </serviceType>
       <serviceType name="org.myrobotlab.service.Keyboard" description="a service which allows capture and transmission of keyboard events (keystrokes)"/>
-      <serviceType name="org.myrobotlab.service.LeapMotion" description="service to borg the Leap Motion controller">
+      <serviceType name="org.myrobotlab.service.LeapMotion2" description="service to borg the Leap Motion controller">
          <dependencies>
             <org>com.leapmotion</org>
          </dependencies>
