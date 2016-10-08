@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+
+  <info organisation="org.apache.commons.commons-lang3" module="commons-lang3" status="release" revision="3.3.2">
+  </info>
+
+  <configurations>
+    <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml" />
+  </configurations>
+
+  <publications>
+    <artifact name="commons-lang3-3.3.2" type="jar" />
+  </publications>
+
+</ivy-module>
