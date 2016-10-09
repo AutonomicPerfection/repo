@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0">
+    <info organisation="org.apache.commons.httpclient" module="httpclient" status="release" revision="4.5.2">
+    </info>
+    <configurations>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
+    </configurations>
+    <publications>
+        <artifact name="commons-codec-1.9" type="jar"/>
+        <artifact name="commons-logging-1.2" type="jar"/>
+        <artifact name="httpclient-4.5.2" type="jar"/>
+        <artifact name="httpcore-4.4.4" type="jar"/>
+        
+    </publications>
+</ivy-module>

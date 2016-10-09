@@ -6,6 +6,7 @@
         <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
-        <artifact name="wdtk-client-0.7.0" type="jar"/>
+        <artifact name="wdtk-datamodel-0.7.0" type="jar"/>
+        <artifact name="wdtk-wikibaseapi-0.7.0" type="jar"/>
     </publications>
 </ivy-module>
