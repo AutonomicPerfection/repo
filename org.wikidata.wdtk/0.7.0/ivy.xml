@@ -7,6 +7,9 @@
     </configurations>
     <publications>
         <artifact name="wdtk-datamodel-0.7.0" type="jar"/>
+        <artifact name="wdtk-dumpfiles-0.7.0" type="jar"/>
+        <artifact name="wdtk-storage-0.7.0" type="jar"/>
+        <artifact name="wdtk-util-0.7.0" type="jar"/>
         <artifact name="wdtk-wikibaseapi-0.7.0" type="jar"/>
     </publications>
 </ivy-module>
