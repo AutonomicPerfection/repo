@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <ivy-module version="2.0">
-    <info organisation="com.sun.java3d" module="java3d" status="release" revision="1.5.1">
+    <info organisation="com.fasterxml.jackson.core" module="core" status="release" revision="2.5.0">
     </info>
     <configurations>
         <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
