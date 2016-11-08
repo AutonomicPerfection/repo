@@ -6,6 +6,6 @@
         <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
-        <artifact name="jfugue-5.0.2" type="jar"/>
+        <artifact name="jfugue-5.0.7" type="jar"/>
     </publications>
 </ivy-module>
