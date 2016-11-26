@@ -6,6 +6,6 @@
         <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
-        <artifact name="jnativehook" type="jar"/>
+        <artifact name="jnativehook-2.0.3" type="jar"/>
     </publications>
 </ivy-module>
