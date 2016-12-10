@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="feed4j" module="feed4j" status="release" revision="1.0">
+	</info>
+	<configurations>
+		<include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml" />
+	</configurations>
+	<publications>
+		<artifact name="dom4j-1.6.1" type="jar" />
+		<artifact name="feed4j" type="jar" />
+		<artifact name="nekohtml" type="jar" />
+		<artifact name="xercesImpl" type="jar" />
+		<artifact name="xml-apis.jar" type="jar" />
+	</publications>
+</ivy-module>
