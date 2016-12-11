@@ -55,5 +55,7 @@
 		<artifact name="xmlunit-1.6" type="jar" />
 		<artifact name="sgt-3.0" type="jar" />
 		<artifact name="mwdumper-1.16" type="jar" />
+		
+		<artifact conf="*" name="Mary" type="zip" ext="zip" />
 	</publications>
 </ivy-module>
