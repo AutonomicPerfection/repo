@@ -42,8 +42,10 @@
 		<artifact name="Jampack-1.0" type="jar" />
 		<artifact name="trove4j-2.0.2" type="jar" />
 		<artifact name="weka-dev-3.7.6" type="jar" />
-		<artifact name="httpcore-4.1" type="jar" />
+<!-- These libraries conflict with other versions of http client that we already have.
+		<artifact name="httpcore-4.1" type="jar" />   -->
 		<artifact name="httpcore-nio-4.1" type="jar" />
+   
 		<artifact name="opennlp-maxent-3.0.3" type="jar" />
 		<artifact name="opennlp-tools-1.5.3" type="jar" />
 		<artifact name="fest-assert-1.4" type="jar" />
