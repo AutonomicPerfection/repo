@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="mycroftai.mimic" module="mimic" status="release" revision="1.x">
+	</info>
+	<configurations>
+		<include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml" />
+	</configurations>
+	<publications>
+		<!-- TODO produce builds for other platforms. -->
+		<artifact conf="x86.64.windows" name="mimic_win64" type="zip" ext="zip" />
+	</publications>
+</ivy-module>
