@@ -6,6 +6,6 @@
         <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
     </configurations>
     <publications>
-        <artifact conf="*" name="j3m-inMoov-Model" type="zip" ext="zip" />
+        <artifact conf="*" name="jm3-inMoov-Model" type="zip" ext="zip" />
      </publications>
 </ivy-module>
