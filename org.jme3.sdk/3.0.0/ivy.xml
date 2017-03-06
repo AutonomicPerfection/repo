@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0">
+    <info organisation="org.jme3" module="sdk" status="release" revision="3.0.0">
+    </info>
+    <configurations>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
+    </configurations>
+    <publications>
+        <artifact name="assets" type="jar"/>
+        <artifact name="eventbus" type="jar"/>
+        <artifact name="gluegen-rt" type="jar"/>
+        <artifact name="inmoov-head" type="jar"/>
+        <artifact name="j-ogg-oggd" type="jar"/>
+        <artifact name="j-ogg-vorbisd" type="jar"/>
+        <artifact name="jbullet" type="jar"/>
+        <artifact name="jglfont-core" type="jar"/>
+        <artifact name="jinput" type="jar"/>
+        <artifact name="jME3-android" type="jar"/>
+        <artifact name="jME3-blender" type="jar"/>
+        <artifact name="jME3-bullet-natives-android" type="jar"/>
+        <artifact name="jME3-bullet-natives" type="jar"/>
+        <artifact name="jME3-bullet" type="jar"/>
+        <artifact name="jME3-core" type="jar"/>
+        <artifact name="jME3-desktop" type="jar"/>
+        <artifact name="jME3-effects" type="jar"/>
+        <artifact name="jME3-ios" type="jar"/>
+        <artifact name="jME3-jbullet" type="jar"/>
+        <artifact name="jME3-jogg" type="jar"/>
+        <artifact name="jME3-jogl" type="jar"/>
+        <artifact name="jME3-lwjgl-natives" type="jar"/>
+        <artifact name="jME3-lwjgl" type="jar"/>
+        <artifact name="jME3-networking" type="jar"/>
+        <artifact name="jME3-niftygui" type="jar"/>
+        <artifact name="jME3-openal-soft-natives-android" type="jar"/>
+        <artifact name="jME3-plugins" type="jar"/>
+        <artifact name="jME3-terrain" type="jar"/>
+        <artifact name="jME3-testdata" type="jar"/>
+        <artifact name="joal" type="jar"/>
+        <artifact name="jogl-all" type="jar"/>
+        <artifact name="launch4j" type="jar"/>
+        <artifact name="lwjgl" type="jar"/>
+        <artifact name="nifty-default-controls-javadoc" type="jar"/>
+        <artifact name="nifty-default-controls" type="jar"/>
+        <artifact name="nifty-javadoc" type="jar"/>
+        <artifact name="nifty-style-black" type="jar"/>
+        <artifact name="nifty" type="jar"/>
+        <artifact name="proguard" type="jar"/>
+        <artifact name="retrace" type="jar"/>
+        <artifact name="stack-alloc" type="jar"/>
+        <artifact name="vecmath" type="jar"/>
+        <artifact name="xmlpull-xpp3" type="jar"/>
+        <artifact name="xstream" type="jar"/>              
+    </publications>
+</ivy-module>
