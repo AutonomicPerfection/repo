@@ -29,6 +29,7 @@
         
         <!-- new repo begin -->
         <artifact name="armv6.hfp.32.linux" type="zip" ext="zip" conf="armv6.hfp.32.linux"/>
+        <artifact name="armv7.hfp.32.linux" type="zip" ext="zip" conf="armv7.hfp.32.linux"/>
         <artifact name="x86.32.linux" type="zip" ext="zip" conf="x86.32.linux"/>
         <artifact name="x86.32.windows" type="zip" ext="zip" conf="x86.32.windows"/>
         <artifact name="x86.64.linux" type="zip" ext="zip" conf="x86.64.linux"/>
