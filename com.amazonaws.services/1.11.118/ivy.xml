@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0">
+    <info organisation="com.amazonaws.services" module="services" status="release" revision="1.11.118">
+    </info>
+    <configurations>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
+    </configurations>
+    <publications>
+        <artifact name="aws-java-sdk-1.11.118" type="jar"/>
+    </publications>
+</ivy-module>
