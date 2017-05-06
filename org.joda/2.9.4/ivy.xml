@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <ivy-module version="2.0">
-    <info organisation="org.joda" module="time" revision="2.9.4">
+    <info organisation="org.joda" module="joda" revision="2.9.4">
     </info>
     <configurations>
         <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
