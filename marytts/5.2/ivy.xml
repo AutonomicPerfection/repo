@@ -23,6 +23,7 @@
 		<artifact name="marytts-signalproc-5.2" type="jar" />
 		<artifact name="marytts-transcription-5.2" type="jar" />
 		<artifact name="voice-cmu-slt-hsmm-5.2" type="jar" />
+        <artifact name="voice-cmu-bdl-hsmm-5.2" type="jar" />
 		
 		<artifact name="emotionml-checker-java-1.1" type="jar" />
 		<artifact name="commons-collections-3.2.2" type="jar" />
