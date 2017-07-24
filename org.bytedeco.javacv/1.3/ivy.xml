@@ -17,6 +17,7 @@
 		<artifact name="javacv" type="jar" conf="*" />
 		<artifact name="opencv" type="jar" conf="*" />
 		<artifact name="videoinput" type="jar" conf="*" />
+		<artifact name="ffmpeg" type="jar" conf="*" />
 		<!-- native jars -->
 
 		<!-- opencv-android-x86.jar ??? -->
@@ -29,6 +30,14 @@
 		<artifact name="opencv-linux-x86_64" type="jar" conf="x86.64.linux" />
 		<artifact name="opencv-macosx-x86_64" type="jar" conf="x86.64.mac" />
 
+		<artifact name="ffmpeg-linux-armhf" type="jar" conf="armv7.hfp.32.linux" />
+		<artifact name="ffmpeg-linux-armhf" type="jar" conf="armv6.hfp.32.linux" />
+		<artifact name="ffmpeg-windows-x86" type="jar" conf="x86.32.windows" />
+		<artifact name="ffmpeg-windows-x86_64" type="jar" conf="x86.64.windows" />
+		<artifact name="ffmpeg-linux-x86" type="jar" conf="x86.32.linux" />
+		<artifact name="ffmpeg-linux-x86_64" type="jar" conf="x86.64.linux" />
+		<artifact name="ffmpeg-macosx-x86_64" type="jar" conf="x86.64.mac" />
+		
 		<artifact name="videoinput-windows-x86" type="jar" conf="x86.32.windows" />
 		<artifact name="videoinput-windows-x86_64" type="jar" conf="x86.64.windows" />
 
