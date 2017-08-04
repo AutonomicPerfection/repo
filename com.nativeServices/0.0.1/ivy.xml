@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+    <info organisation="myrobotlab.org" module="com" status="release" revision="0.0.1">
+    </info>
+    <configurations>
+        <include url="https://raw.githubusercontent.com/MyRobotLab/repo/develop/ivyconfigurations.xml"/>
+    </configurations>
+    <publications>
+        <artifact conf="*" name="native-mrl-services" type="zip" ext="zip" />
+     </publications>
+</ivy-module>
